@@ -5,8 +5,8 @@ import json
 from google import genai
 from google.genai import types
 
-# Setup API key and client
-api_key = "AIzaSyDjNXs_sBhkVK6AbfYb2n9jOdxk0Zr-TUg"
+-
+api_key = "-"
 client = genai.Client(api_key=api_key)
 
 def get_sql_query(query: str) -> str:
